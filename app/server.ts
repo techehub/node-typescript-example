@@ -7,7 +7,7 @@ const port: number = 3000;
 
 app.use('/welcome', WelcomeController);
 app.use ('/register', RegistrationController)
-app.use ('/user', UserController)
+app.use ('', UserController)
 
 app.listen(port, ()=>{
 	console.log(`Listening at http://localhost:${port}/`);
